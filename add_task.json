@@ -1,0 +1,17 @@
+{
+  "ID": "c05762ce-b55a-45e9-8d2c-d8c3e847b16d",
+  "State": 2,
+  "Task": {
+    "State": 1,
+    "ID": "c05762ce-b55a-45e9-8d2c-d8c3e847b16d",
+    "Name": "test-container-1",
+    "Image": "nginx",
+    "ExposedPorts": {
+      "80/tcp": {}
+    },
+    "PortBindings": {
+      "80/tcp": "80"
+    },
+    "HealthCheck": "/health"
+  }
+}
